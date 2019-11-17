@@ -1,22 +1,53 @@
-.App {
+/* La petite police qui va bien tu connais */
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+.Simon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 300px;
+  background-color: blueviolet;
+}
+
+.Title {
+  font-family: "Press Start 2P";
+  color: rgb(0, 0, 0);
   text-align: center;
+  padding-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
+.Check {
+  margin-left: 255px;
+  width: 45px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(116, 6, 97);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Vague {
+  width: 80px;
+  position: relative;
+  bottom: 43px;
+  margin-left: 150px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(116, 6, 97);
 }
 
-.App-link {
-  color: #09d3ac;
+.Info {
+  position: relative;
+  bottom: 90px;
+  left: 360px;
+  background: url(./images/information.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.bRouge {
+  width: 1px;
+  height: 90px;
+  border: 10px solid #069;
+  border-color: transparent transparent transparent #069;
+  border-width: 25px;
+  border-radius: 50px;
 }
