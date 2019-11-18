@@ -8,15 +8,15 @@ function App() {
       <h4 className="Check">✔</h4>
       <h4 className="Vague">Vague :</h4>
       <button className="Info"></button>
-      <button className="bRouge">Rouge</button>
-      <button className="bBleu">Bleu</button>
-      <button className="bViolet">Violet</button>
-      <button className="bJaune">Jaune</button>
-      <button className="bBleuCiel">Bleu Ciel</button>
-      <button className="bVert">Vert</button>
-      <button>Jouer</button>
-      <button>Rejouer</button>
-      <p>Votre Tour</p>
+      <button className="bRouge"></button>
+      <button className="bBleu"></button>
+      <button className="bViolet"></button>
+      <button className="bJaune"></button>
+      <button className="bBleuCiel"></button>
+      <button className="bVert"></button>
+      <button className="Jouer">Jouer</button>
+      <button className="Rejouer">Rejouer</button>
+      <p className="VotreTour">Votre Tour</p>
     </div>
   );
 }

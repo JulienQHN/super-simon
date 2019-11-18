@@ -4,30 +4,36 @@
 .Simon {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-color: blueviolet;
+  font-family: "Press Start 2P";
 }
 
-.Title {
+button {
   font-family: "Press Start 2P";
+  font-size: 10px;
+}
+.Title {
   color: rgb(0, 0, 0);
   text-align: center;
   padding-top: 10px;
 }
 
 .Check {
+  position: relative;
   margin-left: 255px;
-  width: 45px;
+  width: 43px;
+  bottom: 6px;
   color: rgb(0, 0, 0);
   background-color: rgb(116, 6, 97);
 }
 
 .Vague {
-  width: 80px;
+  width: 150px;
   position: relative;
   bottom: 43px;
-  margin-left: 150px;
+  margin-left: 100px;
   color: rgb(0, 0, 0);
   background-color: rgb(116, 6, 97);
 }
@@ -42,12 +48,197 @@
   width: 30px;
   height: 30px;
 }
-
+/* Les 6 boutons de jeu */
 .bRouge {
-  width: 1px;
-  height: 90px;
-  border: 10px solid #069;
-  border-color: transparent transparent transparent #069;
-  border-width: 25px;
-  border-radius: 50px;
+  position: relative;
+  left: 120px;
+  bottom: 35px;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(238, 77, 74);
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+.bRouge:active {
+  background-color: rgb(236, 111, 109);
+  box-shadow: 0 2px #666;
+  transform: translateY(0.5px);
+}
+
+.bBleu {
+  position: relative;
+  left: 140px;
+  bottom: 50px;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3134e0;
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+.bBleu:active {
+  background-color: rgb(55, 95, 228);
+  box-shadow: 0 2px #666;
+  transform: translateY(0.5px);
+}
+
+.bViolet {
+  position: relative;
+  left: 160px;
+  bottom: 35px;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(198, 33, 204);
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+.bViolet:active {
+  background-color: rgb(217, 86, 221);
+  box-shadow: 0 2px #666;
+  transform: translateY(0.5px);
+}
+
+.bJaune {
+  position: relative;
+  right: 40px;
+  top: 35px;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(235, 238, 74);
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+.bJaune:active {
+  background-color: rgb(243, 242, 159);
+  box-shadow: 0 2px #666;
+  transform: translateY(0.5px);
+}
+
+.bBleuCiel {
+  position: relative;
+  top: 50px;
+  right: 20px;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(74, 186, 238);
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+.bBleuCiel:active {
+  background-color: rgb(109, 206, 236);
+  box-shadow: 0 2px #666;
+  transform: translateY(0.5px);
+}
+
+.bVert {
+  position: relative;
+  top: 35px;
+  display: inline-block;
+  padding: 25px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(46, 224, 55);
+  border-radius: 15px;
+  box-shadow: 0 1px #999;
+}
+.bVert:active {
+  background-color: rgb(109, 236, 120);
+  box-shadow: 0 2px #666;
+  transform: translateY(0.5px);
+}
+
+/* Les boutons Jouer et Rejouer */
+.Jouer {
+  position: relative;
+  top: 151.5px;
+  right: 250px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(116, 6, 97);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.Jouer:active {
+  background-color: rgba(116, 6, 98, 0.74);
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.Rejouer {
+  position: relative;
+  top: 100px;
+  left: 250px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(116, 6, 97);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px #999;
+}
+
+.Rejouer:active {
+  background-color: rgba(116, 6, 98, 0.74);
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.VotreTour {
+  position: relative;
+  top: 10px;
+  left: 2px;
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
 }
