@@ -4,8 +4,8 @@
 .Simon {
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
-  height: 350px;
+  width: 450px;
+  height: 440px;
   background-color: blueviolet;
   font-family: "Press Start 2P";
 }
@@ -21,33 +21,25 @@ button {
 }
 
 .Check {
+  font-size: 13px;
   position: relative;
   margin-left: 255px;
-  width: 43px;
-  bottom: 6px;
+  width: 48px;
+  bottom: 90px;
   color: rgb(0, 0, 0);
   background-color: rgb(116, 6, 97);
 }
 
 .Vague {
-  width: 150px;
+  font-size: 15px;
+  width: 130px;
   position: relative;
-  bottom: 43px;
+  bottom: 4px;
   margin-left: 100px;
   color: rgb(0, 0, 0);
   background-color: rgb(116, 6, 97);
 }
 
-.Info {
-  position: relative;
-  bottom: 90px;
-  left: 360px;
-  background: url(./images/information.png) no-repeat;
-  cursor: pointer;
-  border: none;
-  width: 30px;
-  height: 30px;
-}
 /* Les 6 boutons de jeu */
 .bRouge {
   position: relative;
@@ -241,4 +233,45 @@ button {
   color: #fff;
   border: none;
   border-radius: 15px;
+}
+
+/* PopUp */
+.Pop {
+  position: relative;
+  bottom: 9px;
+  left: 360px;
+  background: url(./images/information.png) no-repeat;
+  cursor: pointer;
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-color: none;
+  outline: 0;
+}
+
+.modal .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 22px;
+  text-align: center;
+  padding: 1px;
+}
+.modal .content {
+  width: 100%;
+  padding: 15px 5px;
+  font-size: 10px;
+}
+
+.modal .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 4px;
+  line-height: 15px;
+  right: -10px;
+  top: -10px;
+  font-size: 20px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
 }
