@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import ButtonsPlays from "./ButtonsPlays.js";
 import Pop from "./Pop.js";
-//import PlayerSet from "./PlayerSet.js";
 class App extends Component {
   //constructor(props) {
   // super(props);
