@@ -1,5 +1,7 @@
 import React from "react";
 
+// Les regles du jeu dans le modal
+
 export default ({ close }) => (
   <div className="modal">
     <button className="close" onClick={close}>
